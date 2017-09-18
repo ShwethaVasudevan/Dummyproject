@@ -1,0 +1,22 @@
+html{
+             font-family: Lato, sans-serif;
+             color: #f5ab35;
+         }
+
+.login-button{
+    border-radius: 200px;
+    background-color: #EA940B;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.signup-button{
+    border-radius:200px;
+    background-color: #EA940B;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.text-box{
+    border-radius: 5px;
+}
