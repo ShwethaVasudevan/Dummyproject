@@ -1,0 +1,25 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 130px;
+}
+
+.navbar-orange{
+  background-color: #ffa500;
+}
+
+.navbar-orange a{
+  color: #fff;
+}
+
+.menu-table{
+  margin-top: 20px;
+  width: 70%;
+}
+
+.center{
+width: 150px;
+  margin: 40px auto;
+
+}

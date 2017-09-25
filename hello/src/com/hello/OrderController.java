@@ -7,20 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/movie")
+@RequestMapping("/home")
 public class OrderController {
 
 	//DI via Spring
 	String message;
 
-	@RequestMapping(value="/{name}", method = RequestMethod.GET)
-	public String getMovie(@PathVariable String name, ModelMap model) {
+	@RequestMapping(value="/", method = RequestMethod.GET)
+	public String getMovie(ModelMap model) {
 
-		model.addAttribute("movie", name);
+//		model.addAttribute("movie", name);
 		model.addAttribute("message", this.message);
 
 		//return to jsp page, configured in mvc-dispatcher-servlet.xml, view resolver
-		return "list";
+		return "orderpage";
 
 	}
 
