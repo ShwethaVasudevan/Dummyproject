@@ -13,7 +13,7 @@ public class OrderController {
 	//DI via Spring
 	String message;
 
-	@RequestMapping(value="/", method = RequestMethod.GET)
+	@RequestMapping(value="/order", method = RequestMethod.GET)
 	public String getMovie(ModelMap model) {
 
 //		model.addAttribute("movie", name);
